@@ -1,0 +1,65 @@
+img {
+    width: 200px;
+}
+
+body {
+    background-color:bisque;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    /* text-align: center; */
+    /* Make room for footer */
+    padding-bottom: 100px;
+}
+
+.flavor {
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#rocky {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icecream {
+    background-color:darkgray;
+    /* text-align: center; */
+    width: 300px;
+    margin: auto;
+}
+
+footer {
+    /* border: 3px solid black; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: bisque;
+    text-align: left;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+  }
